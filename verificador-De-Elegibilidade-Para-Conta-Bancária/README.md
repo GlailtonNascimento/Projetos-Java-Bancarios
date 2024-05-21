@@ -1,18 +1,28 @@
-## Getting Started
+# Verificador de Elegibilidade para Conta Bancária
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descrição
+O **Verificador de Elegibilidade para Conta Bancária** é um programa simples em Java que verifica se uma pessoa é elegível para criar uma conta bancária com base na idade inserida. Ele solicita ao usuário que insira sua idade e, em seguida, informa se a pessoa é elegível ou não para criar uma conta bancária.
 
-## Folder Structure
+## Funcionalidades
+- Solicita ao usuário que insira sua idade.
+- Verifica se a idade inserida é maior ou igual a 18 anos.
+- Fornece uma mensagem indicando se a pessoa é elegível para criar uma conta bancária com base na idade.
 
-The workspace contains two folders by default, where:
+## Como Usar
+1. Certifique-se de ter o Java instalado em seu sistema.
+2. Clone este repositório ou baixe o arquivo `verificadorElegibilidadeConta.java`.
+3. Compile o programa usando o seguinte comando:
+    ```sh
+    javac verificadorElegibilidadeConta.java
+    ```
+4. Execute o programa:
+    ```sh
+    java verificadorElegibilidadeConta
+    ```
+5. Siga as instruções na tela para inserir sua idade e verificar sua elegibilidade para criar uma conta bancária.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Exemplo de Uso
+```sh
+Por favor, insira sua idade: 22
+Você está elegível para criar uma conta bancária.
+Deseja verificar outra idade? (S/N): N
