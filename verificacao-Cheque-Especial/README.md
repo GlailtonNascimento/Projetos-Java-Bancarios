@@ -1,18 +1,36 @@
-## Getting Started
+# Sistema de Verificação de Cheque Especial
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descrição
 
-## Folder Structure
+Este é um programa simples em Java que verifica o saldo de uma conta bancária e oferece funcionalidades como utilização de crédito especial e saques, de acordo com as condições estabelecidas.
 
-The workspace contains two folders by default, where:
+## Funcionalidades
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+O programa possui as seguintes funcionalidades:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+| Função                            | Descrição                                                                                                     |
+|-----------------------------------|---------------------------------------------------------------------------------------------------------------|
+| Verificação de Saldo              | Verifica o saldo atual da conta bancária e informa se está zerado, negativo ou positivo.                     |
+| Utilização de Crédito Especial   | Oferece a liberação de um crédito especial de R$100 caso a conta esteja zerada.                             |
+| Realização de Saques              | Permite ao usuário realizar saques, utilizando o saldo disponível na conta bancária ou o crédito especial.  |
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Uso
 
-## Dependency Management
+Para usar o programa, siga estas etapas:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Compile o programa Java.
+2. Execute o arquivo compilado.
+3. Siga as instruções no terminal para inserir o saldo da conta e realizar saques, se desejar.
+
+## Exemplos
+
+| Entrada                    | Saída                                                                                                         |
+|----------------------------|---------------------------------------------------------------------------------------------------------------|
+| Saldo: 500                 | Seu saldo atual é de R$500<br>Observação: Você tem direito a um saldo de crédito de R$100 quando necessário. |
+| Saldo: 0                   | Aviso: Sua conta está zerada.<br>Liberamos um crédito especial de R$ 100 para sua utilização.               |
+
+Neste exemplo, o saldo da conta está positivo, e o programa informa o saldo disponível e a observação sobre o crédito especial.
+
+## Autor
+
+Este programa foi desenvolvido por [Glailton Nascimento].
