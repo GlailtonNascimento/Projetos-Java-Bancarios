@@ -1,6 +1,6 @@
 # Projetos Bancários em Java
 
-Bem-vindo à pasta de projetos bancários em Java! Aqui você encontrará uma variedade de projetos relacionados ao setor bancário implementados em Java. Abaixo está uma breve descrição de cada projeto contido nesta pasta:
+Bem-vindo à pasta de projetos bancários em Java! Aqui você encontrará cinco de projetos relacionados ao setor bancário implementados em Java. Abaixo está uma breve descrição de cada projeto contido nesta pasta:
 
 ## Simulação Bancária em Java
 
